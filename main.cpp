@@ -93,20 +93,12 @@ int main(int argc, char *argv[])
     SDL_Renderer* renderer = createRenderer(window);
 
     SDL_Texture* background = loadTexture("bikiniBottom.jpg", renderer);
-
     SDL_RenderCopy( renderer, background, NULL, NULL);
 
     SDL_RenderPresent( renderer );
     waitUntilKeyPressed();
 
     SDL_Texture* spongeBob = loadTexture("Spongebob.png", renderer);
-    SDL_Rect spongeBobSrc;
-    spongeBobSrc.x = 10;
-    spongeBobSrc.y = 10;
-    spongeBobSrc.w = 100;
-    spongeBobSrc.h = 100;
-    SDL_RenderCopy( renderer, spongeBob, &spongeBobSrc, &spongeBobDest );
-
     renderTexture(spongeBob, 0, 0, renderer);
 
     SDL_RenderPresent( renderer );
