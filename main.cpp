@@ -98,8 +98,8 @@ int main(int argc, char *argv[])
     SDL_RenderPresent( renderer );
     waitUntilKeyPressed();
 
-    SDL_Texture* spongeBob = loadTexture("Spongebob.png", renderer);
-    renderTexture(spongeBob, 0, 0, renderer);
+    //SDL_Texture* spongeBob = loadTexture("Spongebob.png", renderer);
+    //renderTexture(spongeBob, 0, 0, renderer);
 
     SDL_RenderPresent( renderer );
     waitUntilKeyPressed();
