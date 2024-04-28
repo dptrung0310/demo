@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1714318773 source:d:\ltnc\mygame\main.cpp
+	<iostream>
+	<SDL.h>
+	<SDL_image.h>
+	"graphics.h"
+	"defs.h"
+
+1714318812 d:\ltnc\mygame\graphics.h
+	<SDL.h>
+	<SDL_image.h>
+	"defs.h"
+	<vector>
+
+1714314542 d:\ltnc\mygame\defs.h
+
